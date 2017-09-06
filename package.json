@@ -1,0 +1,21 @@
+{
+  "name": "socket-chat-app",
+  "version": "1.0.0",
+  "description": "Extend the code from the lecture about websockets to build a more functional chat application.  This is a fairly open-ended assignment. Depending on how deep you want to dive into web sockets, you might want to add more HTML and CSS to style the 'red vs blue' chat, or you might want to add more features to the socket server if you're feeling ambitious.",
+  "main": "main.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "client-sessions": "^0.8.0",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
